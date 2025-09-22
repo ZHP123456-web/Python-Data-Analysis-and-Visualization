@@ -1,0 +1,381 @@
+[
+  {
+    "employee_id": "EMP-2024-001",
+    "personal_information": {
+      "name": {
+        "first_name": "南宫",
+        "middle_name": "文",
+        "last_name": "昊天",
+        "full_name": "南宫昊天"
+      },
+      "demographics": {
+        "age": 32,
+        "gender": "male",
+        "date_of_birth": "1992-08-15T00:00:00Z",
+        "nationality": "中国",
+        "identification": {
+          "id_type": "身份证",
+          "id_number": "110105199208153214",
+          "passport_number": "E12345678"
+        }
+      },
+      "contact_details": {
+        "primary_email": "haotian.nan@company.com",
+        "secondary_email": "nan.haotian.personal@gmail.com",
+        "phone_numbers": [
+          {
+            "type": "mobile",
+            "country_code": "+86",
+            "number": "138-0011-2233",
+            "is_primary": true
+          },
+          {
+            "type": "work",
+            "country_code": "+86",
+            "number": "010-8888-7777",
+            "extension": "1001"
+          }
+        ],
+        "emergency_contacts": [
+          {
+            "name": "南宫明",
+            "relationship": "父亲",
+            "phone": "+86-139-9988-7766",
+            "priority": 1
+          },
+          {
+            "name": "李静",
+            "relationship": "妻子",
+            "phone": "+86-137-6655-4433",
+            "priority": 2
+          }
+        ]
+      },
+      "address": {
+        "residential": {
+          "street_address": "朝阳区建国路88号国际公寓A座1501室",
+          "city": "北京",
+          "state_province": "北京市",
+          "postal_code": "100025",
+          "country": "中国",
+          "coordinates": {
+            "latitude": 39.9042,
+            "longitude": 116.4074,
+            "geo_hash": "wx4g0b8"
+          }
+        },
+        "mailing_address": {
+          "same_as_residential": false,
+          "street_address": "朝阳区CBD核心区公司大厦人事部转",
+          "city": "北京",
+          "postal_code": "100020",
+          "country": "中国"
+        }
+      }
+    },
+    "employment_details": {
+      "position": {
+        "title": "高级全栈开发工程师",
+        "department": {
+          "id": "DEPT-TECH-007",
+          "name": "技术研发中心",
+          "sub_department": "前端架构组"
+        },
+        "level": "P7",
+        "grade": "Senior Specialist",
+        "job_family": "技术研发",
+        "reports_to": {
+          "employee_id": "EMP-2020-045",
+          "name": "张伟",
+          "title": "技术总监"
+        }
+      },
+      "employment_status": {
+        "type": "regular",
+        "status": "active",
+        "start_date": "2022-03-15T08:30:00Z",
+        "probation_end_date": "2022-09-15T17:00:00Z",
+        "tenure": {
+          "years": 2,
+          "months": 4,
+          "days": 15
+        }
+      },
+      "compensation": {
+        "salary": {
+          "base_monthly": 35000.00,
+          "base_annual": 420000.00,
+          "currency": "CNY",
+          "payment_frequency": "monthly",
+          "bank_account": {
+            "bank_name": "招商银行",
+            "account_number": "6225880112345678",
+            "account_holder": "南宫昊天"
+          }
+        },
+        "bonus": {
+          "annual_target": 80000.00,
+          "quarterly_performance": 20000.00,
+          "last_bonus_date": "2024-01-20",
+          "next_bonus_estimate": 25000.00
+        },
+        "benefits": {
+          "social_insurance": true,
+          "housing_fund": true,
+          "commercial_insurance": {
+            "medical": true,
+            "accident": true,
+            "life": true,
+            "provider": "平安保险"
+          },
+          "stock_options": {
+            "granted": 5000,
+            "vested": 2000,
+            "current_value": 150000.00
+          }
+        }
+      },
+      "work_schedule": {
+        "type": "flexible",
+        "core_hours": "09:00-17:00",
+        "time_zone": "Asia/Shanghai",
+        "remote_work_policy": {
+          "allowed": true,
+          "max_days_per_week": 3,
+          "preferred_location": "hybrid"
+        }
+      }
+    },
+    "skills_qualifications": {
+      "technical_skills": [
+        {
+          "skill": "JavaScript",
+          "level": "expert",
+          "years_experience": 8,
+          "last_used": "2024-07-20",
+          "certifications": [
+            {
+              "name": "AWS Certified Developer",
+              "issuer": "Amazon",
+              "issue_date": "2023-06-15",
+              "expiry_date": "2026-06-15"
+            }
+          ]
+        },
+        {
+          "skill": "React",
+          "level": "expert",
+          "years_experience": 6,
+          "projects": ["电商平台", "管理系统"]
+        }
+      ],
+      "languages": [
+        {
+          "language": "中文",
+          "proficiency": "native",
+          "reading": "excellent",
+          "writing": "excellent",
+          "speaking": "excellent"
+        },
+        {
+          "language": "英语",
+          "proficiency": "fluent",
+          "reading": "good",
+          "writing": "good",
+          "speaking": "intermediate",
+          "certification": "IELTS 7.0"
+        }
+      ],
+      "education": [
+        {
+          "degree": "硕士",
+          "major": "计算机科学",
+          "institution": "清华大学",
+          "graduation_year": 2016,
+          "gpa": 3.8,
+          "thesis": "基于微服务架构的分布式系统设计"
+        }
+      ]
+    },
+    "performance_metrics": {
+      "current_rating": 4.8,
+      "scale": 5.0,
+      "last_review_date": "2024-06-15",
+      "next_review_date": "2024-12-15",
+      "kpis": {
+        "productivity": 92,
+        "quality": 95,
+        "innovation": 88,
+        "collaboration": 90,
+        "leadership": 85
+      },
+      "achievements": [
+        {
+          "title": "年度技术创新奖",
+          "date": "2023-12-20",
+          "description": "主导开发的新架构提升系统性能40%"
+        },
+        {
+          "title": "专利发明",
+          "date": "2024-03-10",
+          "description": "基于AI的代码审查方法",
+          "patent_number": "CN202410123456.7"
+        }
+      ],
+      "goals": [
+        {
+          "id": "GOAL-2024-001",
+          "description": "完成微前端架构迁移",
+          "due_date": "2024-12-31",
+          "progress": 65,
+          "status": "on_track"
+        }
+      ]
+    },
+    "system_metadata": {
+      "created_at": "2022-03-15T08:30:00Z",
+      "created_by": "hr-system",
+      "last_updated": "2024-07-20T14:25:36Z",
+      "updated_by": "haotian.nan",
+      "version": 3.2,
+      "active": true,
+      "data_privacy": {
+        "gdpr_compliant": true,
+        "data_retention_policy": "7 years",
+        "consent_given": true
+      }
+    }
+  },
+  {
+    "employee_id": "EMP-2023-078",
+    "personal_information": {
+      "name": {
+        "first_name": "慕容",
+        "last_name": "雪",
+        "full_name": "慕容雪"
+      },
+      "demographics": {
+        "age": 28,
+        "gender": "female",
+        "date_of_birth": "1996-02-14T00:00:00Z",
+        "nationality": "中国"
+      },
+      "contact_details": {
+        "primary_email": "xue.mu@company.com",
+        "phone_numbers": [
+          {
+            "type": "mobile",
+            "country_code": "+86",
+            "number": "159-1234-5678",
+            "is_primary": true
+          }
+        ]
+      },
+      "address": {
+        "residential": {
+          "street_address": "浦东新区张江高科技园区",
+          "city": "上海",
+          "postal_code": "201203",
+          "country": "中国"
+        }
+      }
+    },
+    "employment_details": {
+      "position": {
+        "title": "数据科学家",
+        "department": {
+          "name": "人工智能实验室"
+        },
+        "level": "P8"
+      },
+      "employment_status": {
+        "type": "regular",
+        "status": "active",
+        "start_date": "2021-08-10T09:00:00Z"
+      },
+      "compensation": {
+        "salary": {
+          "base_monthly": 45000.00,
+          "currency": "CNY"
+        }
+      }
+    },
+    "skills_qualifications": {
+      "technical_skills": [
+        {
+          "skill": "Python",
+          "level": "expert"
+        }
+      ]
+    },
+    "performance_metrics": {
+      "current_rating": 4.9
+    }
+  },
+  {
+    "employee_id": "EMP-2022-153",
+    "personal_information": {
+      "name": {
+        "first_name": "诸葛",
+        "last_name": "明",
+        "full_name": "诸葛明"
+      },
+      "demographics": {
+        "age": 35,
+        "gender": "male",
+        "date_of_birth": "1989-11-23T00:00:00Z",
+        "nationality": "中国"
+      },
+      "contact_details": {
+        "primary_email": "ming.zhu@company.com",
+        "phone_numbers": [
+          {
+            "type": "mobile",
+            "country_code": "+86",
+            "number": "137-5555-8888",
+            "is_primary": true
+          }
+        ]
+      },
+      "address": {
+        "residential": {
+          "street_address": "南山区科技园",
+          "city": "深圳",
+          "postal_code": "518057",
+          "country": "中国"
+        }
+      }
+    },
+    "employment_details": {
+      "position": {
+        "title": "产品总监",
+        "department": {
+          "name": "产品管理部"
+        },
+        "level": "P9"
+      },
+      "employment_status": {
+        "type": "regular",
+        "status": "active",
+        "start_date": "2020-05-20T10:15:00Z"
+      },
+      "compensation": {
+        "salary": {
+          "base_monthly": 60000.00,
+          "currency": "CNY"
+        }
+      }
+    },
+    "skills_qualifications": {
+      "technical_skills": [
+        {
+          "skill": "产品策略",
+          "level": "expert"
+        }
+      ]
+    },
+    "performance_metrics": {
+      "current_rating": 4.7
+    }
+  }
+]
